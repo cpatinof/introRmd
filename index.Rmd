@@ -1,0 +1,70 @@
+---
+title       : Intro to R markdown
+subtitle    : Analysis and Visualization of Large Scale Datasets (ICESI)
+author      : Carlos Ignacio Patiño (cpatinof@gmail.com)
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : mathjax            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Markdown: Intro
+
+- Markdown is a text-to-HTML conversion tool for web writers
+- It allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)
+
+--- .class #id 
+
+## Markdown: Basic Syntax
+
+Headings
+
+```{r, echo=TRUE}
+## Secondary heading
+### Tertiary heading
+```
+
+## Secondary heading
+### Tertiary heading
+
+--- .class #id
+
+## Lists
+
+- For unordered lists use "*"
+- For oredered lists use numbers "1.", "2.", and so on
+
+```{r, echo=TRUE, eval=FALSE}
+* first element
+* second element
+* third element
+```
+
+* first element
+* second element
+* third element
+
+--- .class #id
+
+## R Markdown
+
+* Allows the user to create dynamic documents with embedded R code
+* Use markdown language and R code chunks in the same document
+* R code can be echoed and executed
+* Export to html or pdf
+* Create presentations
+
+--- .class #id
+
+## R Markdown demo
+
+* Creating R md file from R Studio
+* Headings
+* Inserting code and code options
+* In-line code
+* $LaTeX$ equations
+* Tables using `pander`
+* Creating html and pdf
